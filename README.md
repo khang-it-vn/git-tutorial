@@ -3,7 +3,16 @@
   - Tại sao Git là một hệ thống quản lý phiên bản phổ biến.
   - Lịch sử và nguồn gốc của Git.
   - Cài đặt và cấu hình Git.
-
+``` bash
+git config --global user.name "Your Name"
+```
+``` bash
+git config --global user.email "youremail@yourdomain.com"
+```
+> Xem config
+```bash
+git config --list
+```
 ## Các khái niệm cơ bản của Git:
   - Repository và Remote.
   - Commit, Branch, và Merge.
